@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <title>Constructivismo Puro | Blog EduTransforma</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "accent-teal": "#14b8a6",
+                        "accent-blue": "#3b82f6",
+                        "background-dark": "#0f172a",
+                        "card-dark": "#1e293b",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"],
+                        "serif": ["Playfair Display"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Lexend', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .glass-header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(12px);
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.95) 0%, rgba(15, 23, 42, 0.98) 100%);
+        }
+
+        .article-content p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: #94a3b8;
+        }
+
+        .article-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #f8fafc;
+            margin-top: 2.5rem;
+            margin-bottom: 1.25rem;
+        }
+    </style>
+</head>
+
+<body class="bg-background-dark text-slate-100 antialiased">
+    <header class="fixed top-0 w-full z-50 glass-header border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2 group">
+                <span
+                    class="material-icons text-accent-blue group-hover:-translate-x-1 transition-transform">arrow_back</span>
+                <span class="text-sm font-bold">Volver al Blog</span>
+            </a>
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-accent-blue rounded-lg flex items-center justify-center">
+                    <span class="material-icons text-white text-sm">psychology</span>
+                </div>
+                <span class="text-xs font-bold uppercase tracking-widest text-accent-blue">Semana 05</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <section class="relative py-20 hero-gradient overflow-hidden">
+            <div
+                class="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center">
+            </div>
+            <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+                <div
+                    class="inline-block px-4 py-1 bg-white/10 backdrop-blur-md rounded-full text-accent-blue text-xs font-bold mb-6 border border-white/10 uppercase tracking-tighter">
+                    Fundamentos Pedagógicos</div>
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 font-serif">Constructivismo Puro: <span
+                        class="text-accent-blue">Vygotsky y el Aula Moderna</span></h1>
+                <p class="text-lg text-slate-300 max-w-2xl mx-auto italic">"Lo que el niño hoy puede hacer con ayuda,
+                    mañana podrá hacerlo por sí solo."</p>
+            </div>
+        </section>
+
+        <article class="max-w-3xl mx-auto px-4 py-16 article-content">
+            <p class="text-xl text-white font-medium mb-10 leading-relaxed">Cerramos nuestro plan editorial volviendo a
+                las bases: el constructivismo. En un mundo saturado de información, el papel del estudiante como
+                constructor de su propio conocimiento es más relevante que nunca.</p>
+
+            <h2>Vygotsky y la Zona de Desarrollo Próximo</h2>
+            <p>Lev Vygotsky nos enseñó que el aprendizaje es un fenómeno social. La tecnología hoy actúa como esa
+                "herramienta cultural" que media entre el estudiante y el conocimiento. El docente, como facilitador,
+                debe identificar la Zona de Desarrollo Próximo para andamiar el aprendizaje sin imponerlo.</p>
+
+            <div class="bg-card-dark p-8 rounded-3xl border border-white/5 my-10 relative overflow-hidden group">
+                <blockquote class="text-white text-lg italic border-l-4 border-accent-blue pl-6">"El aprendizaje no es
+                    una asimilación pasiva, es una reconstrucción activa mediada por el lenguaje y la cultura."
+                </blockquote>
+            </div>
+
+            <h2>Piaget y la Adaptación</h2>
+            <p>Jean Piaget nos recordó la importancia del desarrollo cognitivo y cómo el estudiante asimila y acomoda la
+                nueva información. En el contexto digital, este proceso de equilibración ocurre constantemente al
+                enfrentarse a nuevas interfaces y flujos de datos.</p>
+
+            <h2>El Estudiante en el Centro</h2>
+            <p>El constructivismo en el siglo XXI no significa dejar al estudiante solo, sino diseñar entornos (muros
+                digitales, blogs, foros) donde la interacción social sea el motor del aprendizaje. El conocimiento no se
+                transmite; se co-crea.</p>
+
+            <div
+                class="mt-20 p-8 bg-gradient-to-br from-primary/10 to-accent-blue/10 rounded-3xl border border-white/10 text-center">
+                <h3 class="text-white font-bold mb-4">¡Gracias por acompañarnos!</h3>
+                <p class="text-slate-400 text-sm">Has completado las 5 semanas de reflexión sobre la Didáctica del Siglo
+                    XXI. Te invitamos a seguir explorando y transformando tu práctica docente.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="bg-slate-900 border-t border-white/5 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-slate-500 text-xs uppercase tracking-widest font-bold mb-4">Misión I - Universidad de
+                Cartagena</p>
+            <div class="flex flex-wrap justify-center gap-6 text-sm text-slate-400">
+                <a href="index.html" class="hover:text-accent-blue transition-colors">Inicio</a>
+                <a href="articulo-4.html" class="hover:text-accent-blue transition-colors">Anterior</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
